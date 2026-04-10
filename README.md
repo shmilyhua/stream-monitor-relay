@@ -21,12 +21,13 @@ Ensure the following binaries are installed and accessible in your system's PATH
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   git clone https://github.com/shmilyhua/stream-monitor-relay.git
+   cd stream-monitor-relay
    ```
 
 2. Install dependencies using `uv`:
    ```bash
+   uv venv --python 3.13
    uv sync
    ```
 
@@ -43,8 +44,8 @@ Ensure the following binaries are installed and accessible in your system's PATH
    Create a `config.json` file in the root directory. Modify the paths to match your environment:
    ```json
    {
-       "NORMAL_TWITCH": "[https://www.twitch.tv/target_channel](https://www.twitch.tv/target_channel)",
-       "NORMAL_YOUTUBE": "[https://www.youtube.com/@target_channel/live](https://www.youtube.com/@target_channel/live)",
+       "NORMAL_TWITCH": "https://www.twitch.tv/target_channel",
+       "NORMAL_YOUTUBE": "https://www.youtube.com/@target_channel/live",
        "TARGET": "rtmp://localhost/live/stream",
        "OVERRIDE_FILE": "override.txt",
        "TWITCH_OPTS": "--stream-sorting-excludes \">720p60\"",
