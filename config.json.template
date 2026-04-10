@@ -1,0 +1,12 @@
+{
+    "NORMAL_TWITCH": "https://www.twitch.tv/target_channel",
+    "NORMAL_YOUTUBE": "https://www.youtube.com/@target_channel/live",
+    "TARGET": "rtmp://localhost/live/stream",
+    "OVERRIDE_FILE": "override.txt",
+    "TWITCH_OPTS": "--stream-sorting-excludes \">720p60\"",
+    "TWITCH_QUALITY": "720p60,720p,best",
+    "YOUTUBE_QUALITY": "-f \"bestvideo[height<=720]+bestaudio/best[height<=720]\" --fragment-retries 3",
+    "FREE_CHAT_ID": "aa0a00A0A0a",
+    "COOKIES_FILE": "/path/to/youtube_cookies.txt",
+    "TWITCH_CONFIG_FILE": "/path/to/config.twitch"
+}
