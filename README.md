@@ -1,3 +1,7 @@
+[![AI Generated](https://img.shields.io/badge/AI_Generated-Gemini-blue.svg)](https://gemini.google.com)
+## Acknowledgments
+
+* **Code Generation:** The core logic and boilerplate for this project were generated using Gemini. All AI-generated code was subsequently reviewed and tested.
 # Stream Monitor & Relay
 
 A Python-based monitoring tool that checks specified Twitch and YouTube streams. When a stream goes live, it automatically relays the feed to a local RTMP server and sends a formatted notification to a Telegram chat, including an extracted frame for Twitch streams.
