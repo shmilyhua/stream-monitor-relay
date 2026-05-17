@@ -1,10 +1,6 @@
 [project]
 name = "stream-monitor-relay"
-version = "1.0.0"
-description = "A streamlink and yt-dlp wrapper to monitor and relay streams."
+version = "2.0.0"
+description = "A minimal streamlink wrapper to relay active streams from yt-channel-monitor."
 requires-python = ">=3.10"
-dependencies = [
-    "flask>=3.0.0",
-    "requests>=2.31.0",
-    "python-dotenv>=1.0.0"
-]
+dependencies = []
